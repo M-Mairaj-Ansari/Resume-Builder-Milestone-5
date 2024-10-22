@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: #f0f4f8;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    border-radius: 9px;
+    padding: 20px;
+    background-color: #cfe1b9c4;
+
+}
+
+fieldset legend{
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+fieldset{
+    border: 2px solid #718355;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #e9f5db;
+   
+}
+
+legend{
+    background: transparent;
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    background: transparent;
+}
+
+
+.profilepicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #718355;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.842);
+    
+} 
+
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #718355;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #718355;
+    color: #f0f4f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #718355;
+    border-radius: 8px;
+    background: #f0f4f8;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.842);
+    margin-top: 10px;
+   
+
+}
+
+#resumeOutput h2{
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#resumeOutput p{
+    flex-direction: column;
+    padding: 15px 15px;
+    font-size: 17px;
+}
